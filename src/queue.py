@@ -13,7 +13,7 @@ class Queue:
         else:
             print'full'
     
-    def dequene(self):
+    def dequeue(self):
         try:
             self._lst.pop(0)
         except IndexError:
